@@ -11,5 +11,5 @@ def about(request):
 
 
 def lena(request):
-    pass
+    return render(request, 'main/lena.html')
 
